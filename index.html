@@ -5,16 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment5</title>
+    <!-- css link  -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- google font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
+
+
 <body>
     <header>
         <h1 id="heading-text">Calculate your saving</h1>
     </header>
-
+    <main>
+        <section class="container">
+            <!-- image container -->
+            <div class="gap">
+                <img width="100%" src="image/calculator.jpg" alt="">
+            </div>
+            <!-- input element -->
+            <div class="text-div">
+                <div>
+                    <h1 class="box-heading ">Income</h1>
+                    <div class="input-style">
+                        <p class="gap">Income:</p>
+                        <p class="gap"><input type="text"></p>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="box-heading">Expenses</h1>
+                    <div class="input-style">
+                        <p class="gap">Food:</p>
+                        <p class="gap"><input type="text"></p>
+                    </div>
+                    <div class="input-style">
+                        <p class="gap">Rent:</p>
+                        <p class="gap"><input type="text"></p>
+                    </div>
+                    <div class="input-style">
+                        <p class="gap">Clothes:</p>
+                        <p class="gap"><input type="text"></p>
+                    </div>
+                    <button class="btn" id="calculate-btn">Calculate</button>
+                </div>
+        
+                
+                <h1 class="box-heading">Total Expenses: 454</h1>
+                <h1 class="box-heading">Balance: 400</h1>
+        
+                <div class="persent-box">
+                    <p class="gap">save:  </p>
+                    <p><input  type="text"></p>
+                    <p class="gap">%</p>
+                    <button class="btn">save</button>
+                </div>
+                <h1 class="box-heading">Saving Amount: 300</h1>
+                <h1 class="box-heading">Remaining Balance: 500</h1>
+            </div>
+        </section>
+    </main>
 
 
     <script src="js/javaScript.js"></script>
