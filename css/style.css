@@ -15,7 +15,11 @@ body{
     padding: 5%;
     margin: 0% 5%;
 }
-
+/* error  */
+#error{
+    color: crimson;
+    display: none;
+}
 
 .gap{
     margin: 10px;
