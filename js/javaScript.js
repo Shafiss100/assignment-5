@@ -10,10 +10,12 @@ document.getElementById("calculate-btn").addEventListener("click", function(){
     if(0<parseFloat(foodCast) && 0<parseFloat(rentCast) && 0<parseFloat(clothCast)){
         let total = parseFloat(foodCast) + parseFloat(rentCast) + parseFloat(clothCast);
         if ( parseFloat(income) > total){
+            document.getElementById("error").style.display = "none";
             var totalExpenses = document.getElementById("total-expenses");
             var balance = document.getElementById("balance");
             totalExpenses.innerText = total;
             balance.innerText = parseFloat(income) - total;
+            document.getElementById("error").style.display = "none";
         }
         else{
             document.getElementById("error").style.display = "block";
