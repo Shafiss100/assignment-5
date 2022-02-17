@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/* heading  */
 #heading-text{
     font-size: 50px;
     text-align: center;
@@ -26,7 +27,7 @@ body{
     display: flex;
     align-items: center;
 }
-
+/* button style  */
 .btn{
     background-color: cornflowerblue;
     color: aliceblue;
@@ -37,9 +38,7 @@ body{
     margin: 0% 50%;
 }
 
-#input-div{
-    background-color: antiquewhite;
-}
+
 .input-style{
     display: flex;
     justify-content: center
@@ -50,3 +49,13 @@ body{
     display: flex;
     justify-content: center;
 }
+
+ /* responsive website  */
+ @media screen and (max-width: 780px) {
+    
+    .container{
+        display: block;
+        margin: auto;
+    }
+    
+  }
